@@ -61,4 +61,11 @@ DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN-SUFFIX,dell.com
 # 嵌入式相关
 DOMAIN-SUFFIX,jlcpcb.com
+# 邮箱不走代理
+DOMAIN,smtp.zoho.com
+DOMAIN,smtppro.zoho.com
+DOMAIN,pop.zoho.com
+DOMAIN,poppro.zoho.com
+DOMAIN,imap.zoho.com
+DOMAIN,imappro.zoho.com
 
