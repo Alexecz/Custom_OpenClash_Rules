@@ -99,9 +99,30 @@ DOMAIN-SUFFIX,cn-music.mefun.vip
 # IPTV 相关
 DOMAIN-SUFFIX,cmdns.xyz
 DOMAIN-SUFFIX,112114.xyz
+
 DOMAIN-SUFFIX,epg.v1.mk
 DOMAIN-SUFFIX,epg.aptv.app
 DOMAIN-SUFFIX,gdcucc.v1.mk
+
+# 国内 CDN
+DOMAIN-SUFFIX,cjjd19.com
+# UniGetUI
+DOMAIN-SUFFIX,powershellgallery.com
+# NTP Pool Project
+DOMAIN-SUFFIX,pool.ntp.org
+# Dell
+DOMAIN-SUFFIX,dell.com
+# 嵌入式相关
+DOMAIN-SUFFIX,jlcpcb.com
+
+# 邮箱不走代理
+DOMAIN,smtp.zoho.com
+DOMAIN,smtppro.zoho.com
+DOMAIN,pop.zoho.com
+DOMAIN,poppro.zoho.com
+DOMAIN,imap.zoho.com
+DOMAIN,imappro.zoho.com
+>>>>>>> main
 
 
 # 冷门国内域名
@@ -112,7 +133,14 @@ DOMAIN-SUFFIX,cleargrass.com
 DOMAIN-SUFFIX,ozonabc.com
 # OZON大卖（OZONBIGSELL）官网
 DOMAIN-SUFFIX,ozonbigsell.com
+
 # 跨境巴士
 DOMAIN-SUFFIX,kuajing84.com
 # 无忧易售
 DOMAIN-SUFFIX,51selling.com
+
+
+# 防止远程控制走代理
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,ToDesk_Service
+
