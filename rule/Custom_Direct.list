@@ -122,7 +122,9 @@ DOMAIN,pop.zoho.com
 DOMAIN,poppro.zoho.com
 DOMAIN,imap.zoho.com
 DOMAIN,imappro.zoho.com
->>>>>>> main
+
+# 元征相关网站不走代理
+DOMAIN-SUFFIX,qcar.x431.com
 
 
 # 冷门国内域名
